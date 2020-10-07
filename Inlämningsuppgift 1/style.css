@@ -1,0 +1,67 @@
+* {
+	font-family: Helvetica;
+
+}
+
+textarea {
+
+	background-color: #F8F9F9;
+}
+
+div {
+	margin: 5px 0px 0px 0px;
+	padding: 7px;
+
+}
+
+label {
+	font-size: 15px;
+}
+
+
+.radio  {
+	font-size: 0.8em;
+}
+
+.checkbox {
+	font-size: 0.8em;
+	font-weight: normal;
+
+}
+
+#rubrik {
+	background-color: #FCF3CF;
+}
+
+#input {
+	width: 35px;
+}
+
+#namn {
+	background-color: #F2D7D5;
+}
+
+#textarea {
+	background-color: #FADBD8;
+}
+
+#sport {
+	background-color: #EBDEF0;
+	font-weight: normal;
+
+}
+
+#intressen {
+	background-color: #E8DAEF;
+}
+
+#filmer {
+	background-color: #D4E6F1;
+	font-weight: normal;
+
+}
+
+#svar {
+	background-color: #D6EAF8;
+}
+

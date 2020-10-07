@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medarbetarenkät</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="rubrik">
+		<h1>Undersökning</h1>
+	</div>
+	<div id="namn">
+		<label for="namn"><strong>Skriv in ditt namn:<strong></label>
+		<input id="input" type="text" name="namn" maxlength ="20"><br>
+	</div>
+
+	<div id="textarea">
+		<textarea rows="4" cols="30" placeholder="beskriv dig själv kortfattat..."></textarea><br>
+	</div>
+
+	<div name="radio" id="sport">
+		<label for="radio"><em>Tränar du någon sport?</em></label><br>
+		<input type="radio" name="tränar" value="ja">
+		<label for="ja" class="radio">JA</label>
+		<input type="radio" name="tränar"  value="nej">
+		<label for="nej" class="radio">NEJ</label>
+	</div>
+
+	<div name="checkbox" id="intressen">
+		<label for="checkbox"><strong><em>Hur föredrar du att läsa om dina intressen?</em></strong></label><br>
+		<input type="checkbox" name="alt1" value="böcker">
+		<label for="alt1" class="checkbox">Böcker</label>
+		<input type="checkbox" name="alt2" value="tidningar">
+		<label for="alt2" class="checkbox">Tidningar</label>
+		<input type="checkbox" name="alt3" value="online">
+		<label for="alt3" class="checkbox">Online</label><br>
+	</div>
+
+	<div id="filmer">
+		<label for="filmer">Favoritfilmgenre:</label>
+		<select name="filmer">  
+			<option></option>
+			<option value="action">Action</option>
+	  		<option value="drama">Drama</option>
+			<option value="skräck">Skräck</option>
+	  		<option value="romantik">Romantik</option>
+	  		<option value="komedi">Komedi</option>
+		</select><br>
+	</div>
+	<div id="svar">
+		<input type="submit" onclick="alert('Genom att klicka på knappen godkänner du att dina svar skickas vidare och sparas på en webbserver.')" value="skicka svar">
+	</div>
+
+
+
+</body>
+</html>
